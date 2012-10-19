@@ -1,12 +1,13 @@
 //Form Validation method
 /* Rules:
 Username:
-    1. Username Should be minimum 5 character long.
-    2. No Space, no Special Character.
+    1. Username Should be minimum 5 characters long.
+    2. No Space, no Special Characters (i.e., must be alphanumeric).
 Email:
-    1. Valid Email Address. 
+    1. Valid Email Address.
+        = valid characters + '@' + more valid chars + '.' + yet more valid chars
 Phone:
-    1. Valid US Phone Number(10 digits: 123-454-7890, (123)-454-7890, (123)+454 7890)
+    1. Valid US Phone Number(10 digits: 123-454-7890, (123) 454-7890, (123)+454 7890)
 Password:
     1. Password length should be minimum 6 characters long.
     2. Password should not be same as Username.
@@ -14,7 +15,7 @@ Password:
 */
 function username_validation(name){
 	"REPLACE THIS CODE WITH YOUR VALIDATION METHOD"
-        var valid_name = /^[a-zA-Z0-9_-]{5,30}$/;
+        var valid_name = /^[a-zA-Z0-9_]{5,30}$/;
     if(!valid_name.test(name)) 
     {         
          return false; 
@@ -36,6 +37,7 @@ var valid_email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2
     { 
          return true;
     } 
+
 
     
 }
@@ -81,5 +83,6 @@ else if (conpass !== res)
 { 
          return true; 
 }
+
   
 }
