@@ -10,7 +10,6 @@ In this project, you will write code to validate fields of an account creation f
 Try it out!
 --------------
 
-Want to see my project for yourself? [Click here](http://qax.learnstreet.com//view_profile/5068e01e76b99c542c000066/project)
+Want to see my project for yourself? [Click here](http://localhost:5000//view_profile/50e5564765a90e3bd0000000/project)
 
 Check out out more coding projects you can do in LearnStreet's Code Garage
-		
