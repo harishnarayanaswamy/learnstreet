@@ -13,7 +13,7 @@ Password:
     
 */
 function username_validation(name){
-	var valid_name = /^[a-zA-Z0-9_-]{5,30}$/;
+var valid_name = /^[a-zA-Z0-9_-]{5,30}$/;
     if(!valid_name.test(name)) 
      {         
          return false; 
@@ -22,7 +22,6 @@ function username_validation(name){
      { 
          return true;
      } 
-  
     
 }
 function email_validation(email){
@@ -77,4 +76,5 @@ else if (conpass !== res)
  { 
          return true; 
 }  
+  
 }
