@@ -13,4 +13,3 @@ Try it out!
 Want to see my project for yourself? [Click here](http://localhost:5000//view_profile/50f4ff0065a90e43e1000008/project)
 
 Check out out more coding projects you can do in LearnStreet's Code Garage
-		
